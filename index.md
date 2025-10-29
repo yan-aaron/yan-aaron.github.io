@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Hi, I'm Your Name
+title: Hi, I'm Aaron
 permalink: /
 ---
 
-Short intro (1–2 sentences). Example: **Undergraduate researcher @ UC Berkeley.**
-Interests: RNA-seq, imaging, deep learning, and structural biology.
+Yoyoyo! I'm an **Undergraduate researcher @ UC Berkeley**.
+Skills: Machine-learning, Transcriptomics, Structural Biology.
+Areas of Interest: Proteins, Healthcare.
 
 - 🔬 **Selected Projects** → [Projects](./projects)
 - 📄 **Selected Publications** → [Publications](./publications)

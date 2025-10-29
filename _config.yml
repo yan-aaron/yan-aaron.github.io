@@ -1,4 +1,4 @@
-title: Your Name
+title: Aaron Yan
 description: Bioinformatics • ML • Imaging • Software
 theme: minima
 
@@ -11,8 +11,6 @@ header_pages:
 # Social links (replace with yours)
 minima:
   social_links:
-    - { platform: github,         user_url: "https://github.com/USERNAME" }
-    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/USERNAME" }
-    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=SCHOLAR_ID" }
-    - { platform: email,          user_url: "mailto:you@domain.com" }
+    - { platform: github,         user_url: "https://github.com/yan-aaron" }
+    - { platform: email,          user_url: "mailto:aarony3061@berkeley.com" }
 
