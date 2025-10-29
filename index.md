@@ -11,5 +11,4 @@ Areas of Interest: Proteins, Healthcare.
 - 🔬 **Selected Projects** → [Projects](./projects)
 - 📄 **Selected Publications** → [Publications](./publications)
 - 📜 **Resume (PDF)** → [Download](./files/resume.pdf)
-- 💻 **GitHub** · **LinkedIn** · **Scholar** (links in header)
 
