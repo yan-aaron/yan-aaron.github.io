@@ -10,5 +10,5 @@ Areas of Interest: Proteins, Healthcare.
 
 - 🔬 **Selected Projects** → [Projects](./projects)
 - 📄 **Selected Publications** → [Publications](./publications)
-- 📜 **Resume (PDF)** → [Download](./files/resume.pdf)
+- 📜 **Resume (PDF)** → [Download](./files/Aaron_Yan_Resume.pdf)
 
