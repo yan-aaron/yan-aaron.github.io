@@ -4,7 +4,7 @@ title: Hi, I'm Aaron
 permalink: /
 ---
 
-Yoyoyo! I'm an **Undergraduate researcher @ UC Berkeley**.
+Hello! I'm an **Undergraduate researcher @ UC Berkeley**.
 Skills: Machine-learning, Transcriptomics, Structural Biology.
 Areas of Interest: Proteins, Healthcare.
 
