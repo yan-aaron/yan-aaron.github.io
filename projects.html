@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projects by Aaron Yan — deep learning, machine learning, and software engineering work." />
+  <meta name="author" content="Aaron Yan" />
+  <meta name="keywords" content="Aaron Yan, projects, deep learning, PyTorch, bioinformatics, Java, portfolio" />
+  <title>Projects — Aaron Yan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">AY</a>
+      <nav>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="publications.html" class="nav-link">Publications</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">My Work</span>
+      <h1>Projects</h1>
+      <p class="page-hero-sub">Deep learning, machine learning, and software engineering — a selection of work I'm proud of.</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS GRID -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="projects-grid">
+
+        <article class="project-card" data-category="code">
+          <img
+            src="pathmnist.png"
+            alt="Synthetic Histopathological Images"
+            class="project-img"
+          />
+          <div class="project-body">
+            <span class="project-tag">Deep Learning · PyTorch</span>
+            <h3>PathMNIST Deep Learning</h3>
+            <p>Built CNN classifiers and a U-Net segmentation pipeline; implemented training/validation loops and ran ablations across architectures.</p>
+            <ul class="project-details">
+              <li>Achieved ≥90% accuracy on PathMNIST classification</li>
+              <li>Achieved ≥97% IoU on segmentation task</li>
+              <li>Explored multiple architecture ablations</li>
+            </ul>
+            <a href="https://github.com/yan-aaron/PathMNIST-Deep-Learning" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="code">
+          <img
+            src="train_val_loss_curve.png"
+            alt="Train and Validaiton Loss Curves"
+            class="project-img"
+          />
+          <div class="project-body">
+            <span class="project-tag">Machine Learning · PyTorch</span>
+            <h3>PLCO Lung Cancer Screening</h3>
+            <p>Developed ML models to predict lung-cancer risk from PLCO trial data using logistic regression and hyper-parameter grid search.</p>
+            <ul class="project-details">
+              <li>Achieved AUC ≥ 0.80 on held-out test set</li>
+              <li>Compared clinical utility against NLST screening criteria</li>
+              <li>Applied hyper-parameter grid search optimization</li>
+            </ul>
+            <a href="https://github.com/yan-aaron/Lung-Cancer-Screening" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </div>
+        </article>
+
+        <article class="project-card project-card--wide" data-category="code">
+          <img
+            src="2d_world_engine.png"
+            alt="Java 2D tile-based world engine"
+            class="project-img"
+          />
+          <div class="project-body">
+            <span class="project-tag">Java · Software Engineering</span>
+            <h3>Java 2D World Engine</h3>
+            <p>Designed and implemented a Java tile-based world exploration engine with procedural generation, UI/HUD, and save/load functionality.</p>
+            <ul class="project-details">
+              <li>Procedurally generated worlds using seeded randomness</li>
+              <li>Custom UI/HUD with interactive game state</li>
+              <li>Persistent save/load system; completed live checkoff</li>
+            </ul>
+            <a href="https://github.com/yan-aaron/2D-World-Engine" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BACK LINK -->
+  <section class="section section-alt back-section">
+    <div class="container" style="text-align:center;">
+      <p>See my published research too.</p>
+      <a href="publications.html" class="btn">View Publications ↗</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Aaron Yan. Built with care.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="publications.html">Publications</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

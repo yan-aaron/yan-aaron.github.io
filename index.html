@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aaron Yan's personal website — data scientist, researcher, and Christian." />
+  <meta name="author" content="Aaron Yan" />
+  <meta name="keywords" content="Aaron Yan, data science, molecular biology, research, portfolio" />
+  <title>Aaron Yan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">AY</a>
+      <nav>
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="publications.html" class="nav-link">Publications</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="eyebrow">Hello, I'm</span>
+        <h1 class="hero-name">Aaron<br><em>Yan</em></h1>
+        <p class="hero-sub">Data Scientist · Researcher · Christian</p>
+        <a href="#about" class="btn">Learn more ↓</a>
+      </div>
+      <div class="hero-image-wrap">
+        <img
+          src="./portrait_photo.HEIC"
+          alt="Portrait of Aaron Yan"
+          class="hero-img"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container two-col">
+      <div class="section-label">
+        <span>01 — About</span>
+      </div>
+      <div class="section-body">
+        <h2>A bit about me</h2>
+        <p>
+          Hi! I'm Aaron, a fourth-year data science and molecular and cell biology student with a passion for using
+          complex biological data to derive new research insights. I love reading, all kinds of sports, and
+          competitive board game matches with friends.
+        </p>
+        <img
+          src="Histone_HFD_DNA_side.png"
+          alt="Histone and DNA"
+          class="inline-img"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- HOBBIES -->
+  <section class="section section-alt" id="hobbies">
+    <div class="container two-col">
+      <div class="section-label">
+        <span>02 — Hobbies</span>
+      </div>
+      <div class="section-body">
+        <h2>What I love doing</h2>
+        <p>Life is better with a wide range of interests. Here are a few things that keep me busy outside of work and school:</p>
+        <ul class="hobby-list">
+          <li>📖 <strong>Reading the Bible</strong> — I enjoy reading through scriptures to start my day with peace.</li>
+          <li>🏐 <strong>Volleyball &amp; Basketball</strong> — I love a great game that is fast-paced and action-packed.</li>
+          <li>🍳 <strong>Cooking</strong> — I love trying new foods and occasionally cooking new foods.</li>
+          <li>🃏 <strong>Card &amp; Board Games</strong> — I have been enjoying playing Nertz and Codenames.</li>
+          <li>🥁 <strong>Cajón</strong> — A really satisfying percussive instrument to play.</li>
+        </ul>
+        <div class="hobby-images">
+          <img
+            src="./beef_wellington.HEIC"
+            alt="Beef Wellington Cross Section"
+            class="hobby-img"
+          />
+          <img
+            src="./creme_brulee.HEIC"
+            alt="Creme Brulee with Raspberries and Ice Cream"
+            class="hobby-img"
+          />
+          <img
+            src="./salmon_wellington.HEIC"
+            alt="Salmon Wellington and Asparagus"
+            class="hobby-img"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM -->
+  <section class="section" id="contact">
+    <div class="container two-col">
+      <div class="section-label">
+        <span>03 — Contact</span>
+      </div>
+      <div class="section-body">
+        <h2>Say hello</h2>
+        <p>Have a question, collaboration idea, or just want to chat? Fill out the form and I'll get back to you.</p>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-submit">Send Message →</button>
+          <div id="formFeedback" class="form-feedback" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Aaron Yan. Built with care.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="publications.html">Publications</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
